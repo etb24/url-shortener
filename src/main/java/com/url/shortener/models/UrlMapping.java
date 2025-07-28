@@ -11,7 +11,7 @@ import java.util.List;
 public class UrlMapping {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private long id;
+    private Long id;
     private String originalUrl;
     private String shortUrl;
     private int clickCount = 0;

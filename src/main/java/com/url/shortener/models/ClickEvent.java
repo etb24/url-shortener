@@ -10,7 +10,7 @@ import java.time.LocalDateTime;
 public class ClickEvent {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private long id;
+    private Long id;
     private LocalDateTime clickDate;
 
     @ManyToOne
